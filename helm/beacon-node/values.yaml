@@ -1,0 +1,44 @@
+nameOverride: ""
+fullnameOverride: ""
+
+beaconNode:
+  web3HttpProvider: "http://172.16.5.5:8545"
+  p2pHostDns: ""
+  deployment:
+    replicaCount: 1
+    podSecurityContext:
+      runAsUser: 101
+      runAsGroup: 101
+      fsGroup: 101
+    image:
+      repository: "registry.gitlab.com/pulsechaincom/prysm-pulse/beacon-chain"
+      pullPolicy: Always
+      tag: "latest"
+    nodeConfigDir: "/config"
+    nodeConfigName: "beacon.yaml"
+    dataDir: "/blockchain"
+
+stats:
+  deployment:
+    replicaCount: 1
+    image:
+      repository: "alethio/eth2stats-client"
+      pullPolicy: Always
+      tag: "latest"
+    eth2StatsAddr: "grpc.medalla.eth2stats.io:443"
+    eth2StatsTLS: "true"
+    name: "stats-node"
+    beaconType: "prysm"
+    nodeName: "falhalla.eth"
+    dataPath: "/blockchain"
+  persistentVolume:
+    size: 5Gi
+
+ports:
+  p2pTcp: 13000
+  p2pUdp: 12000
+  grpc: 4000
+  metrics: 8080
+
+storageClassName: ceph-block
+serviceType: ClusterIP

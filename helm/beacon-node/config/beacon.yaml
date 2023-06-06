@@ -1,0 +1,5 @@
+datadir: /blockchain
+rpc-host: 172.16.5.5
+monitoring-host: 172.16.5.5
+monitoring-port: 8080
+p2p-max-peers: 180

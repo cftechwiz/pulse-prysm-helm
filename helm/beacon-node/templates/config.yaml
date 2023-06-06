@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: {{ include "beacon-node.fullname" . }}
+  labels:
+  {{- include "beacon-node.labels" . | nindent 4 }}
+data:
+  beacon.yaml: |-
+{{- if .Values.beaconNode.p2pHostDns }}
+    p2p-host-dns: "{{ .Values.beaconNode.p2pHostDns }}"
+{{- end }}
+    http-web3provider: "{{ .Values.beaconNode.web3HttpProvider }}"
+{{ .Files.Get "config/beacon.yaml" | indent 4 }}
