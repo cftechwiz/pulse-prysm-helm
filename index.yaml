@@ -3,6 +3,16 @@ entries:
   beacon-node:
   - apiVersion: v2
     appVersion: 1.16.0
+    created: "2023-06-07T18:21:05.140680844Z"
+    description: Pulsechain Beacon Chain Node by Prysmatic Labs
+    digest: 4a4d630706495d8e5aee723e7b194d1604f8d094d81ae7d0201c2b400ecd1b12
+    name: beacon-node
+    type: application
+    urls:
+    - https://github.com/cfallwell/pulse-prysm-helm/releases/download/beacon-node-0.3.1/beacon-node-0.3.1.tgz
+    version: 0.3.1
+  - apiVersion: v2
+    appVersion: 1.16.0
     created: "2023-06-07T03:48:30.329460403Z"
     description: Pulsechain Beacon Chain Node by Prysmatic Labs
     digest: 64d81b29fe161ba9a2b11af2bfdd52e88ec9c642d169dbe5617c67eba2ca74b4
@@ -63,4 +73,4 @@ entries:
     urls:
     - https://github.com/cfallwell/pulse-prysm-helm/releases/download/validator-0.2.0/validator-0.2.0.tgz
     version: 0.2.0
-generated: "2023-06-07T03:48:30.581664054Z"
+generated: "2023-06-07T18:21:05.140699844Z"
