@@ -2,5 +2,5 @@ apiVersion: v2
 name: beacon-node
 description: Pulsechain Beacon Chain Node by Prysmatic Labs
 type: application
-version: 0.1.0
+version: 0.2.0
 appVersion: 1.16.0
