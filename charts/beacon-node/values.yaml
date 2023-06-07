@@ -1,6 +1,5 @@
 nameOverride: ""
 fullnameOverride: ""
-
 beaconNode:
   web3HttpProvider: "http://172.16.5.5:8545"
   p2pHostDns: ""
@@ -17,7 +16,6 @@ beaconNode:
     nodeConfigDir: "/config"
     nodeConfigName: "beacon.yaml"
     dataDir: "/blockchain"
-
 stats:
   deployment:
     replicaCount: 1
@@ -33,12 +31,10 @@ stats:
     dataPath: "/blockchain"
   persistentVolume:
     size: 5Gi
-
 ports:
   p2pTcp: 13000
   p2pUdp: 12000
   grpc: 4000
   metrics: 8080
-
 storageClassName: ceph-block
 serviceType: ClusterIP
