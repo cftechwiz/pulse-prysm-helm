@@ -34,6 +34,16 @@ entries:
   monitoring:
   - apiVersion: v2
     appVersion: 1.16.0
+    created: "2023-06-07T18:23:13.089095764Z"
+    description: A Helm chart for Kubernetes
+    digest: a17a1fdb9fa3f08de14e6134b2b4a73c763b18b049d8a2807e07784a8b6e4940
+    name: monitoring
+    type: application
+    urls:
+    - https://github.com/cfallwell/pulse-prysm-helm/releases/download/monitoring-0.3.1/monitoring-0.3.1.tgz
+    version: 0.3.1
+  - apiVersion: v2
+    appVersion: 1.16.0
     created: "2023-06-07T03:48:30.45693535Z"
     description: A Helm chart for Kubernetes
     digest: a1915a7bdfa85b2bea01f6a932580751da26d3cf04faaebc89e64b9b4f3c1e7b
@@ -55,6 +65,16 @@ entries:
   validator:
   - apiVersion: v2
     appVersion: 1.16.0
+    created: "2023-06-07T18:23:13.26707947Z"
+    description: A Helm chart for Kubernetes
+    digest: 7a50f0e2e22e5a11e673d8b9b81e8780f08437c635ba2c383a2d2f34b88751f3
+    name: validator
+    type: application
+    urls:
+    - https://github.com/cfallwell/pulse-prysm-helm/releases/download/validator-0.3.1/validator-0.3.1.tgz
+    version: 0.3.1
+  - apiVersion: v2
+    appVersion: 1.16.0
     created: "2023-06-07T03:48:30.581653155Z"
     description: A Helm chart for Kubernetes
     digest: a213b0d299d998b32445b661cdcd064b307ffead792c65b46f751e1757a4eb99
@@ -73,4 +93,4 @@ entries:
     urls:
     - https://github.com/cfallwell/pulse-prysm-helm/releases/download/validator-0.2.0/validator-0.2.0.tgz
     version: 0.2.0
-generated: "2023-06-07T18:21:05.140699844Z"
+generated: "2023-06-07T18:23:13.26710517Z"
