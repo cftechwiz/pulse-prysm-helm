@@ -1,0 +1,36 @@
+apiVersion: v1
+entries:
+  beacon-node:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2023-06-07T02:54:23.309818474Z"
+    description: Pulsechain Beacon Chain Node by Prysmatic Labs
+    digest: 7843ec8f6acf89165ce4f35d3b540c4ab4673ba2534ab676de8817083e160a7a
+    name: beacon-node
+    type: application
+    urls:
+    - https://github.com/cfallwell/pulse-prysm-helm/releases/download/beacon-node-0.2.0/beacon-node-0.2.0.tgz
+    version: 0.2.0
+  monitoring:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2023-06-07T02:54:23.420001801Z"
+    description: A Helm chart for Kubernetes
+    digest: ebd5c4b042181071f65d7eeca8f50976914ad39abf058eae077a82bb10f05067
+    name: monitoring
+    type: application
+    urls:
+    - https://github.com/cfallwell/pulse-prysm-helm/releases/download/monitoring-0.2.0/monitoring-0.2.0.tgz
+    version: 0.2.0
+  validator:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2023-06-07T02:54:23.525822244Z"
+    description: A Helm chart for Kubernetes
+    digest: 9194f54303d3ede4edb524c4355f55b34f397a353e7f29c8e65cf19b4a20fd6c
+    name: validator
+    type: application
+    urls:
+    - https://github.com/cfallwell/pulse-prysm-helm/releases/download/validator-0.2.0/validator-0.2.0.tgz
+    version: 0.2.0
+generated: "2023-06-07T02:54:23.525826245Z"
