@@ -3,6 +3,16 @@ entries:
   beacon-node:
   - apiVersion: v2
     appVersion: 1.16.0
+    created: "2023-06-08T20:55:00.176286686Z"
+    description: Pulsechain Beacon Chain Node by Prysmatic Labs
+    digest: 9bee0bc21a87941ea3feedf860cbf0173e58f964c9fd3cba89bd0e9694da8b4c
+    name: beacon-node
+    type: application
+    urls:
+    - https://github.com/cftechwiz/pulse-prysm-helm/releases/download/beacon-node-0.4.2/beacon-node-0.4.2.tgz
+    version: 0.4.2
+  - apiVersion: v2
+    appVersion: 1.16.0
     created: "2023-06-08T00:53:42.865220541Z"
     description: Pulsechain Beacon Chain Node by Prysmatic Labs
     digest: 64de4a6d09fc985d250a9a4ed10fb2dee98515d4345637f2d8559f8cefe40afe
@@ -52,6 +62,16 @@ entries:
     - https://github.com/cfallwell/pulse-prysm-helm/releases/download/beacon-node-0.2.0/beacon-node-0.2.0.tgz
     version: 0.2.0
   monitoring:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2023-06-08T20:55:00.257011796Z"
+    description: A Helm chart for Kubernetes
+    digest: b5d724b3287d5f4bb0f42f05ed305f702200d975f1b388cd618bf365065b811f
+    name: monitoring
+    type: application
+    urls:
+    - https://github.com/cftechwiz/pulse-prysm-helm/releases/download/monitoring-0.4.2/monitoring-0.4.2.tgz
+    version: 0.4.2
   - apiVersion: v2
     appVersion: 1.16.0
     created: "2023-06-08T00:53:42.934785027Z"
@@ -105,6 +125,16 @@ entries:
   validator:
   - apiVersion: v2
     appVersion: 1.16.0
+    created: "2023-06-08T20:55:00.330863606Z"
+    description: A Helm chart for Kubernetes
+    digest: 6e52942150537689b29e0978caa4bdd32ca69832896cf92b20cc193d712e9951
+    name: validator
+    type: application
+    urls:
+    - https://github.com/cftechwiz/pulse-prysm-helm/releases/download/validator-0.4.2/validator-0.4.2.tgz
+    version: 0.4.2
+  - apiVersion: v2
+    appVersion: 1.16.0
     created: "2023-06-08T00:53:43.001582404Z"
     description: A Helm chart for Kubernetes
     digest: e0df5a09f1695c50e5ab1f8fc9e586be020ad38c62f0d6232f48da5c7e301908
@@ -153,4 +183,4 @@ entries:
     urls:
     - https://github.com/cfallwell/pulse-prysm-helm/releases/download/validator-0.2.0/validator-0.2.0.tgz
     version: 0.2.0
-generated: "2023-06-08T00:53:43.001632105Z"
+generated: "2023-06-08T20:55:00.331054606Z"
